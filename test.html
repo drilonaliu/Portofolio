@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sine Carousel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f0f0f0;
+    }
+
+    .container {
+      width: 600px;
+      height: 250px;
+      overflow: hidden;
+      cursor: grab;
+    }
+
+    .inner-container {
+    width: 1600px;
+      display: flex;
+      position: relative;
+      left: 0;
+    }
+
+    .item {
+      flex-shrink: 0;
+      height: 200px;
+      width: 200px;
+      margin: 25px 10px;
+      background-color: lightcoral;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="inner-container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

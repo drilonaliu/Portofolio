@@ -1,0 +1,27 @@
+.carousel-container {
+    width: 600px;
+    overflow: hidden;
+    cursor: grab;
+    border: 2px solid #ccc;
+  }
+  
+  .carousel-track {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: none;
+  }
+  
+  .item {
+    width: 200px;
+    height: 150px;
+    background: lightcoral;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
